@@ -15,9 +15,9 @@ const clubMembersBattleLog = async (clubMembers, token) => {
     const data = await clubMembers;
     try{
         const membersClubLog = await Promise.all(
-                data.map( member => {
-                    const battleLog = getBattleLog(member.tag, token);
-                    const clubLeagueLog = getClubLeagueLog(battleLog);
+                data.map( async (member) => {
+                    const battleLog = await getBattleLog(member.tag, token);
+                    const clubLeagueLog = await getClubLeagueLog(battleLog);
                     return {
                         ...member,
                         clubLeagueLog,

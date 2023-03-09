@@ -4,7 +4,10 @@ const createFile = require('./utils/createFile')
 
 const token = require('./token/token');
 
-const clubMembers = getClubMembers('#2099yjyyc', token)
-const clubMembersBattleLog = getClubLeagueBattleLog(clubMembers, token);
+const getData = async (clubTag, developmentToken) => {
+    const clubMembers = await getClubMembers(clubTag, token)
+    const clubMembersBattleLog = await getClubLeagueBattleLog(clubMembers, token);
+}
 
-createFile(clubMembersBattleLog);
+
+module.exports = getData

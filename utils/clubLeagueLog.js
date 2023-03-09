@@ -1,6 +1,6 @@
 const clubLeagueLog = async ( battleLog ) => {
     const data = await battleLog
-    const clubBattle = data.items.filter( (c) => {
+    const clubBattle = await data.items.filter( (c) => {
         if (c.battle.type === "ranked"){
             if (c.battle.result === 'defeat'){
                 if (c.battle.trophyChange === 1 || c.battle.trophyChange === 2){
