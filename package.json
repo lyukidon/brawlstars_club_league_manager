@@ -1,6 +1,6 @@
 {
   "type":"commonjs",
-  "name": "brawl_commonjs",
+  "name": "brawlstars_clubleague_battlelog",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
