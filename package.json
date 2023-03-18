@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lyukidon/brawlstars_club_league_manager.git"
+    "url": "git+https://github.com/lyukidon/brawlstars_club_league_battlelog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lyukidon/brawlstars_club_league_manager/issues"
+    "url": "https://github.com/lyukidon/brawlstars_club_league_battlelog/issues"
   },
-  "homepage": "https://github.com/lyukidon/brawlstars_club_league_manager#readme"
+  "homepage": "https://github.com/lyukidon/brawlstars_club_league_battlelog#readme"
 }
