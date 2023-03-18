@@ -1,4 +1,4 @@
-# brawlstars_club_league_manager
+# brawlstars_clubleague_manager
 
 Get BrawlStars Club League BattleLog
 
