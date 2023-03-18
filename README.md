@@ -1,10 +1,10 @@
-# brawlstars_clubleague_manager
+# brawlstars_clubleague_battlelog
 
 Get BrawlStars Club League BattleLog
 
 ## Install
 ```sh
-npm install brawlstars_club_league_manager
+npm install brawlstars_clubleague_battlelog
 ```
 
 ## Usage
