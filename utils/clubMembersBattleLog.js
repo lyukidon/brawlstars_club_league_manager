@@ -14,7 +14,6 @@ const clubMembersBattleLog = async (clubMembers, token) => {
                     }
                 })
             )
-            console.dir(membersClubLog, {depth:null})
             return membersClubLog
     }catch(err){
         console.error(err)
