@@ -4,7 +4,7 @@ const getClubLeagueBattleLog = require('./utils/clubMembersBattleLog')
 const getData = async (clubTag, developmentToken) => {
     const clubMembers = await getClubMembers(clubTag, developmentToken)
     const clubMembersBattleLog = await getClubLeagueBattleLog(clubMembers, developmentToken);
+    return clubMembersBattleLog;
 }
 
-
-module.exports = getData
+module.exports = getData;
