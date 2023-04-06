@@ -17,11 +17,13 @@ getData(clubTag, development Token)
 ```
 
 ## Data Form
+- 23.04.06
+    - Add `clubTag` data
 
 ```js
 [
     {
-        "clubtag":"#000000000",
+        "clubTag":"#000000000",
         "tag":String,
         "name":String,
         "nameColor":String,
