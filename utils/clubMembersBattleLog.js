@@ -1,7 +1,7 @@
 const getBattleLog = require('./battleLog');
 const getClubLeagueLog = require('./clubLeagueLog');
 
-const clubMembersBattleLog = async (clubMembers, token) => {
+const clubMembersBattleLog = async (clubMembers,tag, token) => {
     const data = await clubMembers;
     try{
         const membersClubLog = await Promise.all(
