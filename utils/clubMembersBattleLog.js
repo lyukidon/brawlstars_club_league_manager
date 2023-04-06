@@ -9,8 +9,8 @@ const clubMembersBattleLog = async (clubMembers,clubTag, token) => {
                     const battleLog = await getBattleLog(member.tag, token);
                     const clubLeagueLog = await getClubLeagueLog(battleLog);
                     return {
-                        clubTag
                         ...member,
+                        clubTag,
                         clubLeagueLog,
                     }
                 })
