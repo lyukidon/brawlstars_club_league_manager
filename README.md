@@ -30,7 +30,7 @@ getData(clubTag, development Token)
         "nameColor":String,
         "role":String,
         "trophies":Number,
-        "clubleaguelog: [
+        "clubLeagueLog: [
             {
                 "battleTime": String,
                 "event":{
