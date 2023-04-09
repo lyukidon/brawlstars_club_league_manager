@@ -15,6 +15,7 @@ getData(clubTag, development Token)
 // clubTag : string
 // development Token : string
 ```
+- Get Token from [Brawl Stars API](https://developer.brawlstars.com/#/)
 
 ## Data Form
 - 23.04.06
@@ -75,5 +76,3 @@ getData(clubTag, development Token)
     }
 ]
 ```
-
-- Get Token from [Brawl Stars API](https://developer.brawlstars.com/#/)
